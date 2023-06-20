@@ -1,0 +1,419 @@
+<!doctype html>
+<html class="h-100" lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+  <meta name="description" content="A growing collection of ready to use components for the CSS framework Bootstrap 5">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="96x96" href=".t/img/favicon.png">
+  <meta name="author" content="Holger Koenemann">
+  <meta name="generator" content="Eleventy v2.0.0">
+  <meta name="HandheldFriendly" content="true">
+  <title>Trabajo Grupal Grupo 3</title>
+  <link rel="stylesheet" href="css/theme.min.css">
+  <script src="/js/script.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/estilosg3.css">
+
+
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navScroll">
+
+  <nav id="navScroll" class="navbar navbar-expand-lg navbar-light fixed-top" tabindex="0">
+    <div class="container">
+      <a class="navbar-brand pe-4 fs-4">
+        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-layers-half"
+          viewbox="0 0 16 16">
+          <path
+            d="M8.235 1.559a.5.5 0 0 0-.47 0l-7.5 4a.5.5 0 0 0 0 .882L3.188 8 .264 9.559a.5.5 0 0 0 0 .882l7.5 4a.5.5 0 0 0 .47 0l7.5-4a.5.5 0 0 0 0-.882L12.813 8l2.922-1.559a.5.5 0 0 0 0-.882l-7.5-4zM8 9.433 1.562 6 8 2.567 14.438 6 8 9.433z" />
+        </svg>
+           <span class="ms-1 fw-bolder">GRUPO 3</span>
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#services" aria-label="Brings you to the frontpage">
+              XML vs JSON
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#aboutus">
+              XML
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#numbers">
+              JSON
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#gallery">
+              AJAX
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <main>
+
+    <div class="w-100 overflow-hidden bg-gray-100" id="top">
+
+      <div class="container position-relative">
+        
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/img1 (1).png" class="d-block w-100" alt="Image 1">
+        </div>
+        <div class="carousel-item">
+          <img src="img/img1 (2).png" class="d-block w-100" alt="Image 2">
+        </div>
+        <div class="carousel-item">
+          <img src="img/img1 (3).png" class="d-block w-100" alt="Image 3">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </a>
+    </div>
+
+    <div class="py-vh-5 w-100 overflow-hidden" id="services">
+      <div class="container">
+        <div class="row d-flex justify-content-end">
+          <div class="col-lg-8" data-aos="fade-down"></div>
+        </div>
+        <div class="container">
+          <h2 class="text-center">Tabla Comparativa XML & JSON</h2>
+          <table class="table table-bordered">
+            <thead>
+              <tr>
+                <th class="celeste text-center">CARACTERES</th>
+                <th class="celeste text-center">SEMEJANZAS</th>
+                <th class="celeste text-center">DIFERENCIAS</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="celeste">- Formato</td>
+                <td class="cuerpo">En los dos casos son formatos de texto legibles para humanos y máquinas.</td>
+                <td class="cuerpo">En el caso XML utiliza etiquetas de apertura y cierre, mientras que JSON utiliza llaves y
+                  corchetes.</td>
+              </tr>
+              <tr>
+                <td class="celeste">- Soporte</td>
+                <td class="cuerpo">En ambos casos son ampliamente utilizados en el intercambio de datos.</td>
+                <td class="cuerpo">Podemos decir que XML es más utilizado en entornos empresariales y lenguajes como SOAP, mientras que
+                  JSON es comúnmente usado en aplicaciones web y RESTful APIs.</td>
+              </tr>
+              <tr>
+                <td class="celeste">- Tipos De Datos</td>
+                <td class="cuerpo">Los dos se pueden representar datos simples y complejos.</td>
+                <td class="cuerpo">XML permite la definición de tipos de datos complejos mediante esquemas, mientras que
+                  JSON se basa en estructuras simples como cadenas, números, booleanos, arrays y objetos anidados.</td>
+              </tr>
+              <tr>
+                <td class="celeste">- Legibilidad</td>
+                <td class="cuerpo">Son legibles para los desarrolladores debido a su estructura jerárquica.</td>
+                <td class="cuerpo">En el caso de JSON es generalmente más legible y conciso que XML.</td>
+              </tr>
+              <tr>
+                <td class="celeste">- Extensibilidad</td>
+                <td class="cuerpo">XML & JSON permiten la extensión mediante el uso de etiquetas o propiedades
+                  personalizadas.</td>
+                <td class="cuerpo">XML tiene un mecanismo más formal para la extensibilidad a través de la definición de
+                  esquemas y namespaces, mientras que en JSON la extensibilidad es más flexible pero menos estructurada.
+                </td>
+              </tr>
+              <tr>
+                <td class="celeste">- Compatibilidad con APIs</td>
+                <td class="cuerpo">Los dos son formatos son compatibles con una amplia variedad de lenguajes de programación y
+                  tienen librerías y herramientas disponibles para su manipulación.</td>
+                <td class="cuerpo">Algunos lenguajes y frameworks pueden tener mejor soporte nativo para XML o JSON, lo
+                  que puede influir en la elección del formato a utilizar.</td>
+              </tr>
+              <tr>
+                <td class="celeste">- Uso</td>
+                <td class="cuerpo">JSON es generalmente más fácil de usar y comprender para los desarrolladores debido a
+                  su sintaxis más concisa.</td>
+                <td class="cuerpo">XML puede resultar más verboso y complicado de escribir y analizar en comparación con
+                  JSON.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="py-vh-4 bg-gray-100 w-100 overflow-hidden" id="aboutus">
+        <div class="container">
+          <h2 class="text-center" style="color: rgb(75, 75, 75)">XML</h2> <br>
+          <p>El lenguaje de marcado extensible (XML) permite definir y almacenar datos de forma compartible. XML admite el intercambio de información entre sistemas de computación, como sitios web, bases de datos y aplicaciones de terceros. Las reglas predefinidas facilitan la transmisión de datos como archivos XML a través de cualquier red, ya que el destinatario puede usar esas reglas para leer los datos de forma precisa y eficiente.</p>
+          <h3>Codigo XML</h2>
+
+            <div class="docs-code-block code-viewer">
+              <pre class="shadow-lg rounded"><code class="xml hljs">
+    <span class="tag">&lt;carros&gt;</span>
+      <span class="tag">&lt;carro&gt;</span>
+        <span class="tag">&lt;marca&gt;</span>Ford<span class="tag">&lt;/marca&gt;</span>
+        <span class="tag">&lt;modelo&gt;</span>Eco Sport<span class="tag">&lt;/modelo&gt;</span>
+        <span class="tag">&lt;anio&gt;</span>2013<span class="tag">&lt;/anio&gt;</span>
+        <span class="tag">&lt;concesionaria&gt;</span>Motors Sport<span class="tag">&lt;/concesionaria&gt;</span>
+      <span class="tag">&lt;/carro&gt;</span>
+      <span class="tag">&lt;carro&gt;</span>
+        <span class="tag">&lt;marca&gt;</span>KIA<span class="tag">&lt;/marca&gt;</span>
+        <span class="tag">&lt;modelo&gt;</span>Sonet<span class="tag">&lt;/modelo&gt;</span>
+        <span class="tag">&lt;anio&gt;</span>2022<span class="tag">&lt;/anio&gt;</span>
+        <span class="tag">&lt;concesionaria&gt;</span>Automotores Sudamericana<span class="tag">&lt;/concesionaria&gt;</span>
+      <span class="tag">&lt;/carro&gt;</span>
+      <span class="tag">&lt;carro&gt;</span>
+        <span class="tag">&lt;marca&gt;</span>Chevrolet<span class="tag">&lt;/marca&gt;</span>
+        <span class="tag">&lt;modelo&gt;</span>Onix<span class="tag">&lt;/modelo&gt;</span>
+        <span class="tag">&lt;anio&gt;</span>2019<span class="tag">&lt;/anio&gt;</span>
+        <span class="tag">&lt;concesionaria&gt;</span>LAVCA Automotores<span class="tag">&lt;/concesionaria&gt;</span>
+      <span class="tag">&lt;/carro&gt;</span>
+      <span class="tag">&lt;carro&gt;</span>
+        <span class="tag">&lt;marca&gt;</span>Volvo<span class="tag">&lt;/marca&gt;</span>
+        <span class="tag">&lt;modelo&gt;</span>HSF hike<span class="tag">&lt;/modelo&gt;</span>
+        <span class="tag">&lt;anio&gt;</span>2012<span class="tag">&lt;/anio&gt;</span>
+        <span class="tag">&lt;concesionaria&gt;</span>AutoMas<span class="tag">&lt;/concesionaria&gt;</span>
+      <span class="tag">&lt;/carro&gt;</span>
+      <span class="tag">&lt;carro&gt;</span>
+        <span class="tag">&lt;marca&gt;</span>Hyundai<span class="tag">&lt;/marca&gt;</span>
+        <span class="tag">&lt;modelo&gt;</span>Tucson<span class="tag">&lt;/modelo&gt;</span>
+        <span class="tag">&lt;anio&gt;</span>2008<span class="tag">&lt;/anio&gt;</span>
+        <span class="tag">&lt;concesionaria&gt;</span>EcoAuto<span class="tag">&lt;/concesionaria&gt;</span>
+      <span class="tag">&lt;/carro&gt;</span>
+      <span class="tag">&lt;carro&gt;</span>
+        <span class="tag">&lt;marca&gt;</span>Chevy<span class="tag">&lt;/marca&gt;</span>
+        <span class="tag">&lt;modelo&gt;</span>Tiggo 8 Pro<span class="tag">&lt;/modelo&gt;</span>
+        <span class="tag">&lt;anio&gt;</span>2021<span class="tag">&lt;/anio&gt;</span>
+        <span class="tag">&lt;concesionaria&gt;</span>AutosEgerton<span class="tag">&lt;/concesionaria&gt;</span>
+      <span class="tag">&lt;/carro&gt;</span>
+      <span class="tag">&lt;carro&gt;</span>
+        <span class="tag">&lt;marca&gt;</span>Jeep<span class="tag">&lt;/marca&gt;</span>
+        <span class="tag">&lt;modelo&gt;</span>Compass<span class="tag">&lt;/modelo&gt;</span>
+        <span class="tag">&lt;anio&gt;</span>2018<span class="tag">&lt;/anio&gt;</span>
+        <span class="tag">&lt;concesionaria&gt;</span>Sylvia Beach<span class="tag">&lt;/concesionaria&gt;</span>
+      <span class="tag">&lt;/carro&gt;</span>
+      <span class="tag">&lt;carro&gt;</span>
+        <span class="tag">&lt;marca&gt;</span>Audi<span class="tag">&lt;/marca&gt;</span>
+        <span class="tag">&lt;modelo&gt;</span>AX33 C<span class="tag">&lt;/modelo&gt;</span>
+        <span class="tag">&lt;anio&gt;</span>2018<span class="tag">&lt;/anio&gt;</span>
+        <span class="tag">&lt;concesionaria&gt;</span>Grasset<span class="tag">&lt;/concesionaria&gt;</span>
+      <span class="tag">&lt;/carro&gt;</span>
+      <span class="tag">&lt;carro&gt;</span>
+        <span class="tag">&lt;marca&gt;</span>BMW<span class="tag">&lt;/marca&gt;</span>
+        <span class="tag">&lt;modelo&gt;</span>A44 P<span class="tag">&lt;/modelo&gt;</span>
+        <span class="tag">&lt;anio&gt;</span>2015<span class="tag">&lt;/anio&gt;</span>
+        <span class="tag">&lt;concesionaria&gt;</span>Allen Unwin<span class="tag">&lt;/concesionaria&gt;</span>
+      <span class="tag">&lt;/carro&gt;</span>
+      <span class="tag">&lt;carro&gt;</span>
+        <span class="tag">&lt;marca&gt;</span>Mercedes<span class="tag">&lt;/marca&gt;</span>
+        <span class="tag">&lt;modelo&gt;</span>C22<span class="tag">&lt;/modelo&gt;</span>
+        <span class="tag">&lt;anio&gt;</span>2016<span class="tag">&lt;/anio&gt;</span>
+        <span class="tag">&lt;concesionaria&gt;</span>Bravo Autos<span class="tag">&lt;/concesionaria&gt;</span>
+      <span class="tag">&lt;/carro&gt;</span>
+    <span class="tag">&lt;/carros&gt;</span>
+    </code></pre>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="py-vh-5 w-100 overflow-hidden" id="numbers">
+      <div class="container">
+        <h2 class="text-center" style="color: rgb(75, 75, 75)">JSON</h2>
+        <p>El formato JSON (JavaScript Object Notation) es un formato abierto utilizado como alternativa al XML para la transferencia de datos estructurados entre un servidor de Web y una aplicación Web. Su lógica de organización tiene puntos de semejanza con el XML, pero posee una notación diferente. El formato ganó popularidad en servicios de la Web, como clientes de correo electrónico y páginas de compras, dado que consigue transmitir una gran cantidad de información entre el cliente y el servidor utilizando una menor cantidad de caracteres.</p>
+        <h3>Codigo JS</h3>
+
+        <div class="docs-code-block code-viewer">
+          <pre class="shadow-lg rounded"><code class="javascript hljs">
+      <span class="comment">// Cargar el archivo JSON</span>
+      <span class="builtin">fetch</span>(<span class="string">"series.json"</span>)
+        .<span class="builtin">then</span>(response <span class="operator">=&gt;</span> response.<span class="builtin">json</span>())
+        .<span class="builtin">then</span>(data <span class="operator">=&gt;</span> <span class="function">mostrarSeries</span>(data));
+    };
+  
+    <span class="function">function</span> mostrarSeries(data) {
+      <span class="keyword">var</span> listaSeries <span class="operator">=</span> document.getElementById(<span class="string">"lista-series"</span>);
+  
+      data.series.forEach(<span class="function">(pelicula)</span> <span class="operator">=&gt;</span> {
+        <span class="keyword">var</span> titulo <span class="operator">=</span> serie.titulo;
+        <span class="keyword">var</span> director <span class="operator">=</span> serie.director;
+        <span class="keyword">var</span> anio <span class="operator">=</span> serie.anio;
+        <span class="keyword">var</span> genero <span class="operator">=</span> serie.genero;
+        <span class="keyword">var</span> li <span class="operator">=</span> document.createElement(<span class="string">"li"</span>);
+        <span class="keyword">var</span> texto <span class="operator">=</span> document.createTextNode(titulo <span class="operator">+</span> <span class="string">" - "</span> <span class="operator">+</span> director <span class="operator">+</span> <span class="string">" ("</span> <span class="operator">+</span> anio <span class="operator">+</span> <span class="string">") - "</span> <span class="operator">+</span> genero);
+        li.appendChild(texto);
+        listaSeries.appendChild(li);
+      });
+    }
+  </code></pre>
+        </div><br><br>
+
+        <h3>Archivo JSON</h3>
+
+        <div class="docs-code-block code-viewer">
+          <pre class="shadow-lg rounded"><code class="javascript hljs">
+   <span class="class">{
+    <span class="property">&quot;peliculas&quot;</span>: [
+      {
+        <span class="property">&quot;titulo&quot;</span>: <span class="string">&quot;Suits&quot;</span>,
+        <span class="property">&quot;director&quot;</span>: <span class="string">&quot;Carlos Ford &quot;</span>,
+        <span class="property">&quot;anio&quot;</span>: <span class="string">&quot;2016&quot;</span>,
+        <span class="property">&quot;genero&quot;</span>: <span class="string">&quot;Drama&quot;</span>
+      },
+      {
+        <span class="property">&quot;titulo&quot;</span>: <span class="string">&quot;YOU&quot;</span>,
+        <span class="property">&quot;director&quot;</span>: <span class="string">&quot;Patrick Stanley&quot;</span>,
+        <span class="property">&quot;anio&quot;</span>: <span class="string">&quot;2017&quot;</span>,
+        <span class="property">&quot;genero&quot;</span>: <span class="string">&quot;Suspenso - Drama&quot;</span>
+      },
+      {
+        <span class="property">&quot;titulo&quot;</span>: <span class="string">&quot;Emily in Paris&quot;</span>,
+        <span class="property">&quot;director&quot;</span>: <span class="string">&quot;Robert Adams&quot;</span>,
+        <span class="property">&quot;anio&quot;</span>: <span class="string">&quot;2022quot;</span>,
+        <span class="property">&quot;genero&quot;</span>: <span class="string">&quot;Comedia&quot;</span>
+      },
+      {
+        <span class="property">&quot;titulo&quot;</span>: <span class="string">&quot;Drive to Survive&quot;</span>,
+        <span class="property">&quot;director&quot;</span>: <span class="string">&quot;Quentin Tarantino&quot;</span>,
+        <span class="property">&quot;anio&quot;</span>: <span class="string">&quot;2017&quot;</span>,
+        <span class="property">&quot;genero&quot;</span>: <span class="string">&quot;Documental&quot;</span>
+      },
+      {
+        <span class="property">&quot;titulo&quot;</span>: <span class="string">&quot;Palpito&quot;</span>,
+        <span class="property">&quot;director&quot;</span>: <span class="string">&quot;Carlos Wachowskis&quot;</span>,
+        <span class="property">&quot;anio&quot;</span>: <span class="string">&quot;2021&quot;</span>,
+        <span class="property">&quot;genero&quot;</span>: <span class="string">&quot;Acción&quot;</span>
+      }
+    ]
+  }
+  
+</code></pre>
+        </div>
+        <ul id="lista-peliculas"></ul>
+        <div>
+
+        </div>
+
+
+
+      </div>
+    </div>
+
+    <div class="position-relative overflow-hidden w-100 bg-light" id="gallery">
+      <div class="container">
+        <h2 class="text-center" style="color: rgb(75, 75, 75)">AJAX</h2>
+        <p>
+          AJAX significa JavaScript asíncrono y XML (Asynchronous JavaScript and XML). Es un conjunto de técnicas de desarrollo web que permiten que las aplicaciones web funcionen de forma asíncrona, procesando cualquier solicitud al servidor en segundo plano. Espera, ¿qué es AJAX de nuevo? Vamos a revisar cada término por separado.
+
+          JavaScript es un lenguaje de programación muy conocido. Entre otras funciones, gestiona el contenido dinámico de un sitio web y permite la interacción dinámica del usuario. XML es otra variante de un lenguaje de marcado como HTML, como lo sugiere su nombre: eXtensible Markup Language. Mientras HTML está diseñado para mostrar datos, XML está diseñado para contener y transportar datos.</p>
+        <h3>Codigo AJAX</h2>
+
+          <div class="docs-code-block code-viewer">
+            <pre class="shadow-lg rounded"><code class="javascript hljs">
+        <span class="comment">// Cargar usuarios al cargar la página</span>
+        window.onload = <span class="function">function</span>() {
+          cargarUsuarios();
+        };
+    
+        <span class="function">function</span> cargarUsuarios() {
+          <span class="keyword">var</span> xhttp = <span class="keyword">new</span> XMLHttpRequest();
+          xhttp.onreadystatechange = <span class="function">function</span>() {
+            <span class="keyword">if</span> (this.readyState === 4 &amp;&amp; this.status === 200) {
+              <span class="keyword">var</span> data = this.responseXML;
+              mostrarUsuarios(data);
+            }
+          };
+          xhttp.open(<span class="string">"GET"</span>, <span class="string">"usuarios.xml"</span>, <span class="keyword">true</span>);
+          xhttp.send();
+        }
+    
+        <span class="function">function</span> mostrarUsuarios(data) {
+          <span class="keyword">var</span> listaUsuarios = document.getElementById(<span class="string">"lista-usuarios"</span>);
+          <span class="keyword">var</span> usuarios = data.getElementsByTagName(<span class="string">"usuario"</span>);
+    
+          <span class="keyword">for</span> (var i = 0; i &lt; usuarios.length; i++) {
+            <span class="keyword">var</span> nombre = usuarios[i].getElementsByTagName(<span class="string">"nombre"</span>)[0].textContent;
+            <span class="keyword">var</span> email = usuarios[i].getElementsByTagName(<span class="string">"email"</span>)[0].textContent;
+    
+            <span class="keyword">var</span> li = document.createElement(<span class="string">"li"</span>);
+            <span class="keyword">var</span> texto = document.createTextNode(nombre + <span class="string">" - "</span> + email);
+            li.appendChild(texto);
+            listaUsuarios.appendChild(li);
+          }
+        }
+    </code></pre>
+          </div>
+          <ul id="lista-usuarios"></ul>
+          <div>
+
+          </div>
+
+      </div>
+
+    </div>
+    </div>
+   
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 800, // values from 0 to 3000, with step 50ms
+      });
+    </script>
+
+    <script>
+      let scrollpos = window.scrollY
+      const header = document.querySelector(".navbar")
+      const header_height = header.offsetHeight
+
+      const add_class_on_scroll = () => header.classList.add("scrolled", "shadow-sm")
+      const remove_class_on_scroll = () => header.classList.remove("scrolled", "shadow-sm")
+
+      window.addEventListener('scroll', function () {
+        scrollpos = window.scrollY;
+
+        if (scrollpos >= header_height) {
+          add_class_on_scroll()
+        } else {
+          remove_class_on_scroll()
+        }
+
+        console.log(scrollpos)
+      })
+    </script>
+  
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    // Configurar el carrusel para que se mueva automáticamente
+    var myCarousel = document.getElementById('carouselExampleIndicators');
+    var carousel = new bootstrap.Carousel(myCarousel, {
+      interval: 3000, // Cambia cada 3 segundos (3000 milisegundos)
+      wrap: true // Reproduce automáticamente desde el principio después de llegar al último slide
+    });
+  </script>
+</body>
+
+</html>
